@@ -11,5 +11,5 @@ void main(){
   double altura= double.parse(lado2);
   
   var area= (base * altura)/2 ;
-  print("*****El área es: $area*****");
+  print("*****==El área es: $area==*****");
 }
