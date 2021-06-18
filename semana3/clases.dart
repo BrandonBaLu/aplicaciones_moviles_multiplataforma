@@ -16,7 +16,7 @@ void main(){
     
     print("¿Desea ver los registros?\n'Si/No'");
     var repetir = stdin.readLineSync();
-    if (repetir=="si"){// || repetir=="Si");{
+    if (repetir=="si" || repetir=="Si");{
       objeto.imprimir();
     }
     print("¿Desea regresar al principio?");
@@ -25,12 +25,9 @@ void main(){
   }
 }
 
-
 class Sensores{
   void sensor(){
-
   }
-
   void leer(){
     print("Inserta el id del sensor");
     dynamic id = stdin.readLineSync();
@@ -53,4 +50,3 @@ class Sensores{
   }
 
 }
-
